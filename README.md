@@ -28,5 +28,9 @@ spring boot cloud
 ~~gradle + ali 镜像~~
 FAQ frequently answered question 
 ** how to start spring boot project? user spring initializer
+** gradlew 要不要提交? 要
+** gradle build 太慢了? gradle-wrapper.properties 访问了墙外; 
+    C:\Users\xxx\.gradle\wrapper\dists\gradle-6.5.1-bin\1m5048aptkfynhbvolwgr4ej9\ 目录下放自己下载的 gradle-6.5.1-bin.zip
+** gradle plugin 下载不到? 配置settings.gradle, 用ali 镜像 
 ** 每个微服务都要各自一个git 仓库嘛? 貌似是的, 为了独立部署, 组织架构blah blah; 折衷, 为了方便在一个IDE里搞, 不分了
   
