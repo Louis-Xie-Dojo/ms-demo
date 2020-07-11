@@ -37,5 +37,12 @@ FAQ frequently answered question
 ** spring boot 测试有啥变化? 可以写UT/IT, 具体待学习, 先掠过
 ** [如何搞rest WS?](https://spring.io/guides/gs/rest-service/)
 ** spring boot 如何发http请求?  RestTemplate 客户端访问server端的, 类似的有jdbcTemplate, JmsTemplate 
+** rabbitmq? choco install rabbitmq --yes 
+    http://localhost:15672/#/
+        guest/guest
+** rabbitmq 收发消息? RabbitTemplate 
+     Spring AMQP requires that the Queue, the TopicExchange, 
+     and the Binding be declared as top-level Spring beans in order to be set up properly.
+      
 
-
+** 负载均衡怎么搞? 
