@@ -1,10 +1,10 @@
-package com.horror.item;
+package com.horror;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ServiceBApplicationTests {
+class ServiceAApplicationTests {
 
 	@Test
 	void contextLoads() {

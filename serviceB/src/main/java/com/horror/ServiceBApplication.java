@@ -1,14 +1,14 @@
-package com.horror.item;
+package com.horror;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
-public class ServiceAApplication {
+public class ServiceBApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceAApplication.class, args);
+		SpringApplication.run(ServiceBApplication.class, args);
 	}
 
 }
