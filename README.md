@@ -47,3 +47,5 @@ FAQ frequently answered question
 
 ** 客户端负载均衡怎么搞?  
     spring-cloud-starter-loadbalancer 
+    
+** 服务发现? eureka 
