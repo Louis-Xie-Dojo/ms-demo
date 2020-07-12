@@ -2,7 +2,6 @@ package com.horror.mq;
 
 import java.util.concurrent.TimeUnit;
 
-import com.horror.MessagingRabbitmqApplication;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

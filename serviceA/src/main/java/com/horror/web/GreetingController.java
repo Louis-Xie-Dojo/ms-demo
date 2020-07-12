@@ -2,11 +2,9 @@ package com.horror.web;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-import com.horror.ConsumingRestApplication;
+import com.horror.rest.ConsumingRestApplication;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.boot.web.client.RestTemplateBuilder;
-import org.springframework.context.annotation.Bean;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
