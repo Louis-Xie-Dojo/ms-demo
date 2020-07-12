@@ -45,4 +45,5 @@ FAQ frequently answered question
      and the Binding be declared as top-level Spring beans in order to be set up properly.
       
 
-** 负载均衡怎么搞? 
+** 客户端负载均衡怎么搞?  
+    spring-cloud-starter-loadbalancer 
